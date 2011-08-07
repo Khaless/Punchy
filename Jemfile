@@ -5,6 +5,9 @@ gem "will_paginate"
 gem "acts-as-taggable-on"
 gem "gchartrb"
 
+# Tomcat based server container.
+gem "trinidad"
+
 group :development, :test do
 	gem 'activerecord-jdbcsqlite3-adapter'
 end
